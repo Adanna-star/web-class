@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+    .logo {
+        font-size: 30px;
+        font-family: 'Sofia', sans-serif;
+        color: white;
+        font-weight: bold;
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+        background-color: #f9d0de;
+        padding: 10px 20px;
+        width: 100%;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .nav-links {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding-left: 900px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .nav-links a {
+        color: white;
+    }
+    img {
+        width: 100%;
+    }
+    .imagewrite {
+        position: relative;
+    }
+    .text{
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        transform: translate(-0%, -0%);
+        text-align: right;
+        padding-right: 59px;
+        font-size: 25px;
+    }
+    .button1{
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-right: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: transparent;
+        border: #ff94cd solid 2px;
+    }
+    .button2{
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #f9d0de;
+        background-color: white;
+    }
+    footer{
+        font-size: 25px;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+</style>
+</head>
+<body>
+<nav class="navbar">
+    <a class="logo" href="#">hello<span style="color: #ff94cd;">kitty</span></a>
+    <ul class="nav-links">
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">services</a></li>
+        <li><a href="#">contact</a></li>
+        <li><a href="#">feedback</a></li>
+    </ul>
+</nav>
+<div class="imagewrite">
+    <section class="image-text">
+        <img src="hellokitty section.jpg">
+        <div class="text">
+            <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #af7f73;">welcome to 
+                <span style="color: white; font-family: sofia;">hello</span>
+                <span style=" color: #ff94cd; font-family: sofia;">kitty</span> webstore &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            </h1>
+            <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #af7f73;">Where you can find 
+                <span style=" color: #ff94cd; font-family: sofia;">cute </span
+                >and <span style="color: white; font-family: sofia;">aesthetic</span> things to your liking </h2>
+                <div class="button"><button class="button1">explore</button>
+                <button class="button2">shop now</button></div>
+        </div>
+    </section>
+</div>
+<footer style="background-color: #ff94cd; padding: 20px; text-align: center; font-family: 'Courier New', Courier, monospace; color: white;">
+    <p>Follow us on:</p>
+    <i class="fa-brands fa-instagram" style="color: #ff94cd;"></i>
+    <i class="fa-brands fa-tiktok" style="color: #ff94cd;"></i>
+    <i class="fa-brands fa-facebook-f" style="color: #ff94cd;"></i>
+    
+    <p>&copy; 2025 hellokitty. All rights reserved.</p>
+    <p>Designed by Adanna</p>
+    </footer>
+</body>
+</html>
